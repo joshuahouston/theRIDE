@@ -50,7 +50,10 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiamZhY3RvcnkiLCJhIjoiZXdJam1yZyJ9.-AOTWD0gk1_3
 var map = L.mapbox.map('map', 'jfactory.nf8kln00', {
 	infoControl: false,
 	attributionControl: true,
-	layers: [redLine, blueLine, greenLine]
+	layers: [redLine, blueLine, greenLine],
+	maxZoom: 18,
+	minZoom: 12,
+	maxBounds: [[56.95,-135.8],[57.2,-134.9]]
 }).setView([57.055,-135.333], 14);
 	L.control.locate().addTo(map);
 map.attributionControl
