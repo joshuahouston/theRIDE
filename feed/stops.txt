@@ -11,7 +11,8 @@ SITKA_HIGH,Sitka High School,"Sitka High School, Performing Arts Center, and Cro
 BARANOF,Baranof St / Sawmill Creek Rd,Near Baranof Elementary School and Market Center,57.053762,-135.330515
 BIORKA,Biorka St / Sawmill Creek Rd,Near Sitka Recycling Center and Sitka National Cemetery,57.054078,-135.324954
 NATIONAL_PARK,Sitka National Historical Park,Sawmill Creek Road entrance to Sitka National Historical Park,57.049752,-135.313991
-WHALE_PARK,Whale Park,Final stop along Sawmill Creek Rd,57.033684,-135.253237
+WHALE_PARK,Whale Park,Whale Park overlooks the entrance to Silver Bay and is at the head of the new pedestrian path that follows along Sawmill Creek Rd to the industrial park,57.033684,-135.253237
+GPIP,Gary Paxton Industrial Park,Final stop along Sawmill Creek Rd - GPIP Admin building near Blue Lake Rd,57.047016,-135.232633
 THIMBLEBERRY,Thimbleberry Lake,Thimbleberry Lake and Heart Lake Trailhead,57.03776,-135.2555
 ANNA,Anna Drive / Sawmill Creek Rd,Across from Knutson Dr and Cedar Beach Rd,57.043584,-135.280383
 ARR_TRANSF,Arrowhead Transfer,Near Foreign Auto and Mt Verstovia Trailhead,57.04743,-135.299131
