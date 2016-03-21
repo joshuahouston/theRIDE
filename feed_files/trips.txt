@@ -1,14 +1,4 @@
 route_id,service_id,trip_id,trip_headsign,shape_id
-BLUE,REGWK,BEGBLU,to Crescent Harbor,BEGBLU
-BLUE,REGWK,BLU1,to Sitka High via Lake St,BLU1
-BLUE,REGWK,BLU2,to Whale Park,BLU2
-BLUE,REGWK,BLU3,to Crescent Harbor,BLU3
-BLUE,REGWK,ENDBLU,to Price St,ENDBLU
-GREEN,REGWK,GRN1,to Indian River Rd,GRN1
-GREEN,REGWK,GRN2,to Japonski Island,GRN2
-GREEN,REGWK,ENDGRN,to Japonski Island,ENDGRN
-RED,REGWK,BEGRED,to Crescent Harbor,BEGRED
-RED,REGWK,RED1,to Sitka High via HPR,RED1
-RED,REGWK,RED2,to Ferry Terminal,RED2
-RED,REGWK,RED3,to Crescent Harbor,RED3
-RED,REGWK,ENDRED,to McDonald's,ENDRED
+BLUE,REGWK,BLU,to Whale Park,blu
+GREEN,REGWK,GRN,to Japonski Island,grn
+RED,REGWK,RED,to Ferry Terminal,red
