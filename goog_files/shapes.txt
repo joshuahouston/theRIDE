@@ -1,3 +1,4 @@
+shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence
 blu,57.048971,-135.304403,0
 blu,57.049689,-135.304393,1
 blu,57.049926,-135.304383,2
