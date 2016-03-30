@@ -172,7 +172,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Lakeside Grocery</div><p>AC Lakeside Grocery and shopping center</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:32 AM</td><td>6:32 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Lakeside Grocery</div><p>AC Lakeside Grocery and shopping center</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Inbound</td><td>6:32 AM</td><td>6:32 PM</td><td>Every 60 minutes</td></tr><tr><td>Outbound</td><td>6:49 AM</td><td>6:49 PM</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
