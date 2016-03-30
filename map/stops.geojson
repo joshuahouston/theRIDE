@@ -397,7 +397,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Community House</div><p>Sheetka Kwaan Naa Kahidi Community House - 200 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>6:30 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Community House</div><p>Sheetka Kwaan Naa Kahidi Community House - 200 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>7:30 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -406,7 +406,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Sitka Tribe</div><p>Sitka Tribe of Alaska offices - 456 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:31 AM</td><td>6:31 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Sitka Tribe</div><p>Sitka Tribe of Alaska offices - 456 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:31 AM</td><td>7:01 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -415,7 +415,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Center For Community</div><p>Center For Community & Sitka Medical Center - 700 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:33 AM</td><td>6:33 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Center For Community</div><p>Center For Community & Sitka Medical Center - 700 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:33 AM</td><td>7:03 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -424,7 +424,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Kaasdaa Heen Cr / Indian River Rd</div><p>Across from ANB Cemetery</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:37 AM</td><td>6:37 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Kaasdaa Heen Cr / Indian River Rd</div><p>Across from ANB Cemetery</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:37 AM</td><td>7:07 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -433,7 +433,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Peter Simpson Rd / Indian River Rd</div><p>Near Yaw Dr and Indian River Trailhead</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:38 AM</td><td>6:38 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Peter Simpson Rd / Indian River Rd</div><p>Near Yaw Dr and Indian River Trailhead</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:38 AM</td><td>7:18 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -442,7 +442,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">UAS</div><p>University of Alaska Southeast Sitka extension and Mt Edgecumbe High School</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:49 AM</td><td>6:49 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">UAS</div><p>University of Alaska Southeast Sitka extension and Mt Edgecumbe High School</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:49 AM</td><td>7:19 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -451,7 +451,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">US Coast Guard</div><p>United States Coast Guard Maple parking lot</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:50 AM</td><td>6:50 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">US Coast Guard</div><p>United States Coast Guard Maple parking lot</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:50 AM</td><td>7:20 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -460,7 +460,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">SEARHC - Mt Edgecumbe Hospital</div><p>Main entrance to SEARHC - Mt Edgecumbe Hospital near Seward Ave</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:54 AM</td><td>6:54 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">SEARHC - Mt Edgecumbe Hospital</div><p>Main entrance to SEARHC - Mt Edgecumbe Hospital near Seward Ave</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:54 AM</td><td>7:24 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -469,7 +469,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Sealing Cove</div><p>Sealing Cove Harbor parking lot near Alice Lp</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:57 AM</td><td>6:57 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Sealing Cove</div><p>Sealing Cove Harbor parking lot near Alice Lp</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:57 AM</td><td>7:27 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
