@@ -46,7 +46,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Crescent Harbor</div><p>Crescent Harbor parking lot near Harrigan Centennial Hall - All Line Transfer</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Blue, Red<td>6:45 AM</td><td>6:45 PM</td><td>Every 60 minutes</td></tr><tr><td>Green Line</td><td>6:45 AM</td><td>7:15 PM</td></tr></table>"
+      "description": "<div class=\"marker-title\">Crescent Harbor</div><p>Crescent Harbor parking lot near Harrigan Centennial Hall - All Line Transfer</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Blue, Red<td>6:45 AM</td><td>6:45 PM</td><td>Every 60 minutes</td></tr><tr><td>Green Line</td><td>6:45 AM</td><td>7:15 PM</td><td>Every 30 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
