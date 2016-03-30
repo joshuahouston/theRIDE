@@ -10,11 +10,11 @@
   "features": [{
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Price St / Burkhart Dr</div><p>Near Sawmill Creek Plaza</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>6:30 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Price St / Burkhart Dr</div><p>Near Sawmill Creek Plaza</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Inbound</td><td>6:30 AM</td><td>7:30 PM</td><td>Every 60 minutes</td></tr><tr><td>Outbound</td><td>7:02 AM</td><td>7:02 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.304604, 57.048969]
+      "coordinates": [-135.304524, 57.048981]
     }
   }, {
     "type": "Feature",
@@ -23,7 +23,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.310775, 57.048522]
+      "coordinates": [-135.310752, 57.048555]
     }
   }, {
     "type": "Feature",
@@ -32,7 +32,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.324104, 57.051873]
+      "coordinates": [-135.324116, 57.051864]
     }
   }, {
     "type": "Feature",
@@ -41,7 +41,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.319287, 57.049071]
+      "coordinates": [-135.31924, 57.049091]
     }
   }, {
     "type": "Feature",
@@ -50,7 +50,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.332387, 57.05064]
+      "coordinates": [-135.332556, 57.050577]
     }
   }, {
     "type": "Feature",
@@ -59,7 +59,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.334675, 57.053745]
+      "coordinates": [-135.334642, 57.053748]
     }
   }, {
     "type": "Feature",
@@ -68,7 +68,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.334573, 57.058177]
+      "coordinates": [-135.334511, 57.058193]
     }
   }, {
     "type": "Feature",
@@ -77,25 +77,25 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.337078, 57.060975]
+      "coordinates": [-135.337023, 57.06104]
     }
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Sitka High School</div><p>\"Sitka High School, Performing Arts Center, and Cross Trail access - Red Line & Blue Line Transfer\"</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:54 AM</td><td>6:54 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Sitka High School</div><p>Sitka High School, Performing Arts Center, and Cross Trail access - Red Line and Blue Line Transfer</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Blue Line<td>6:54 AM</td><td>6:54 PM</td><td>Every 60 minutes</td></tr><tr><td>Red Line</td><td>6:54 AM</td><td>6:54 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.341934, 57.062755]
+      "coordinates": [-135.341931, 57.062774]
     }
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Baranof St / Sawmill Creek Rd</div><p>Near Baranof Elementary School and Market Center</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:56 AM</td><td>6:56 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Baranof St / Sawmill Creek Rd</div><p>Near Baranof Elementary School and Market Center</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Blue Line</td><td>6:56 AM</td><td>6:56 PM</td><td>Every 60 minutes</td></tr><tr><td>Green Line</td><td>6:35 AM</td><td>7:05 PM</td><td>Every 30 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.330534, 57.053788]
+      "coordinates": [-135.330515, 57.053762]
     }
   }, {
     "type": "Feature",
@@ -104,7 +104,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.32495, 57.054091]
+      "coordinates": [-135.324954, 57.054078]
     }
   }, {
     "type": "Feature",
@@ -113,7 +113,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.313942, 57.049815]
+      "coordinates": [-135.313991, 57.049752]
     }
   }, {
     "type": "Feature",
@@ -122,7 +122,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.253219, 57.033577]
+      "coordinates": [-135.253237, 57.033684]
     }
   }, {
     "type": "Feature",
@@ -131,7 +131,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.232774, 57.046985]
+      "coordinates": [-135.232633, 57.047016]
     }
   }, {
     "type": "Feature",
@@ -140,7 +140,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.255535, 57.037748]
+      "coordinates": [-135.2555, 57.03776]
     }
   }, {
     "type": "Feature",
@@ -149,7 +149,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.280395, 57.043586]
+      "coordinates": [-135.280383, 57.043584]
     }
   }, {
     "type": "Feature",
@@ -158,16 +158,16 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.299095, 57.047372]
+      "coordinates": [-135.299131, 57.04743]
     }
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">McDonalds</div><p>McDonald's Parking Lot across from Peterson Ave</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>6:30 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">McDonalds</div><p>McDonald&rsquo;s Parking Lot across from Peterson Ave</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>7:30 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.349264, 57.059872]
+      "coordinates": [-135.349377, 57.059938]
     }
   }, {
     "type": "Feature",
@@ -176,16 +176,16 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.346249, 57.057122]
+      "coordinates": [-135.34627, 57.057107]
     }
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Random House</div><p>\"Downtown near Ernie's, Old Harbor Books, and Harry Race Pharmacy & Ice Cream Parlor\"</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:39 AM</td><td>6:39 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Random House</div><p>Downtown near Ernie&rsquo;s, Old Harbor Books, and Harry Race Pharmacy & Ice Cream Parlor</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:39 AM</td><td>6:39 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.336973, 57.049628]
+      "coordinates": [-135.336955, 57.04963]
     }
   }, {
     "type": "Feature",
@@ -194,7 +194,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.345967, 57.059837]
+      "coordinates": [-135.345825, 57.059803]
     }
   }, {
     "type": "Feature",
@@ -203,7 +203,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.350648, 57.06317]
+      "coordinates": [-135.350606, 57.063192]
     }
   }, {
     "type": "Feature",
@@ -212,7 +212,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.355259, 57.064826]
+      "coordinates": [-135.355222, 57.06487]
     }
   }, {
     "type": "Feature",
@@ -221,16 +221,16 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.359622, 57.066465]
+      "coordinates": [-135.35959, 57.066483]
     }
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Sea Mart</div><p>Sea Mart Quality Foods grocery store</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>7:00 AM</td><td>7:00 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Sea Mart</div><p>Sea Mart Quality Foods grocery store</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Outbound</td><td>7:00 AM</td><td>7:00 PM</td><td>Every 60 minutes</td></tr><tr><td>Inbound</td><td>7:27 AM</td><td>7:27 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.367597, 57.068315]
+      "coordinates": [-135.367561, 57.068345]
     }
   }, {
     "type": "Feature",
@@ -239,7 +239,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.366723, 57.069369]
+      "coordinates": [-135.366616, 57.069406]
     }
   }, {
     "type": "Feature",
@@ -248,7 +248,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.369827, 57.07379]
+      "coordinates": [-135.369747, 57.073835]
     }
   }, {
     "type": "Feature",
@@ -257,7 +257,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.373708, 57.076984]
+      "coordinates": [-135.373612, 57.077024]
     }
   }, {
     "type": "Feature",
@@ -266,7 +266,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.381402, 57.085486]
+      "coordinates": [-135.381244, 57.08554]
     }
   }, {
     "type": "Feature",
@@ -275,7 +275,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.386259, 57.089148]
+      "coordinates": [-135.386166, 57.089237]
     }
   }, {
     "type": "Feature",
@@ -284,7 +284,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.391279, 57.092912]
+      "coordinates": [-135.391236, 57.092929]
     }
   }, {
     "type": "Feature",
@@ -293,7 +293,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.39972, 57.102726]
+      "coordinates": [-135.399641, 57.102726]
     }
   }, {
     "type": "Feature",
@@ -302,7 +302,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.394208, 57.112418]
+      "coordinates": [-135.394215, 57.112415]
     }
   }, {
     "type": "Feature",
@@ -311,7 +311,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.386834, 57.118232]
+      "coordinates": [-135.386762, 57.118225]
     }
   }, {
     "type": "Feature",
@@ -320,7 +320,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.380359, 57.12771]
+      "coordinates": [-135.380499, 57.127718]
     }
   }, {
     "type": "Feature",
@@ -329,7 +329,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.387082, 57.117899]
+      "coordinates": [-135.387213, 57.117925]
     }
   }, {
     "type": "Feature",
@@ -338,7 +338,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.396187, 57.111115]
+      "coordinates": [-135.396329, 57.111178]
     }
   }, {
     "type": "Feature",
@@ -347,7 +347,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.39808, 57.100132]
+      "coordinates": [-135.398183, 57.100109]
     }
   }, {
     "type": "Feature",
@@ -356,7 +356,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.390942, 57.092464]
+      "coordinates": [-135.391024, 57.092436]
     }
   }, {
     "type": "Feature",
@@ -365,7 +365,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.38213, 57.086081]
+      "coordinates": [-135.382114, 57.086078]
     }
   }, {
     "type": "Feature",
@@ -374,7 +374,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.373319, 57.076576]
+      "coordinates": [-135.37337, 57.076552]
     }
   }, {
     "type": "Feature",
@@ -383,7 +383,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.369831, 57.073698]
+      "coordinates": [-135.369881, 57.073675]
     }
   }, {
     "type": "Feature",
@@ -392,16 +392,16 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.366521, 57.068765]
+      "coordinates": [-135.366582, 57.068729]
     }
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Community House</div><p>Sheetka Kwaan Naa Kahidi Community House - 200 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>7:30 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Community House</div><p>Sheetka Kwaan Naa Kahidi Community House - 200 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>7:30 PM</td><td>Every 30 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.339627, 57.050253]
+      "coordinates": [-135.339593, 57.050278]
     }
   }, {
     "type": "Feature",
@@ -410,7 +410,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.344495, 57.053032]
+      "coordinates": [-135.344471, 57.053091]
     }
   }, {
     "type": "Feature",
@@ -419,7 +419,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.347671, 57.056604]
+      "coordinates": [-135.34784, 57.056601]
     }
   }, {
     "type": "Feature",
@@ -428,7 +428,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.31822, 57.054452]
+      "coordinates": [-135.318199, 57.054417]
     }
   }, {
     "type": "Feature",
@@ -437,7 +437,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.311405, 57.055626]
+      "coordinates": [-135.31143, 57.055668]
     }
   }, {
     "type": "Feature",
@@ -446,7 +446,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.351059, 57.052027]
+      "coordinates": [-135.351194, 57.052079]
     }
   }, {
     "type": "Feature",
@@ -455,7 +455,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.348718, 57.050343]
+      "coordinates": [-135.34876, 57.050326]
     }
   }, {
     "type": "Feature",
@@ -464,7 +464,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.355522, 57.052112]
+      "coordinates": [-135.355497, 57.052122]
     }
   }, {
     "type": "Feature",
@@ -473,7 +473,7 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [-135.348275, 57.049026]
+      "coordinates": [-135.348109, 57.049036]
     }
   }]
 }
