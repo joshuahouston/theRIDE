@@ -100,7 +100,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Biorka St / Sawmill Creek Rd</div><p>Near Sitka Recycling Center and Sitka National Cemetery</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:57 AM</td><td>6:57 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Biorka St / Sawmill Creek Rd</div><p>Near Sitka Recycling Center and Sitka National Cemetery</p><table id=\"t01\"><tr><th></th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Blue Line</td><td>6:57 AM</td><td>6:57 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
