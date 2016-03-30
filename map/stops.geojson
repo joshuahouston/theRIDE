@@ -64,7 +64,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Arrowhead St / Monastery St</div><p>Between Shennett St and Kinkead St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:49 AM</td><td>6:49 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Arrowhead St / Monastery St</div><p>Between Shennett St & Kinkead St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:49 AM</td><td>6:49 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -73,7 +73,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Verstovia St / A St</div><p>Just south of Sitka High School between Sirstad St and Monastery St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:50 AM</td><td>6:50 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Verstovia St / A St</div><p>Just south of Sitka High School between Sirstad St & Monastery St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:50 AM</td><td>6:50 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -136,7 +136,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Thimbleberry Lake</div><p>Thimbleberry Lake and Heart Lake Trailhead</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>7:22 AM</td><td>7:22 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Thimbleberry Lake</div><p>Thimbleberry Lake Trail & Heart Lake Trailheads</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>7:22 AM</td><td>7:22 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -145,7 +145,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Anna Drive / Sawmill Creek Rd</div><p>Across from Knutson Dr and Cedar Beach Rd</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>7:25 AM</td><td>7:25 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Anna Drive / Sawmill Creek Rd</div><p>Across from Knutson Dr & Cedar Beach Rd</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>7:25 AM</td><td>7:25 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -163,7 +163,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">McDonalds</div><p>McDonald&rsquo;s Parking Lot across from Peterson Ave</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>7:30 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">McDonalds</div><p>McDonald's Parking Lot across from Peterson Ave</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>7:30 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -181,7 +181,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Random House</div><p>Downtown near Ernie&rsquo;s, Old Harbor Books, and Harry Race Pharmacy & Ice Cream Parlor</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:39 AM</td><td>6:39 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Random House</div><p>Downtown near Ernie's, Old Harbor Books, and Harry Race Pharmacy & Ice Cream Parlor</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:39 AM</td><td>6:39 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -199,7 +199,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Kashevaroff St / Edgecumbe Dr</div><p>\"Near Keet Gooshi Heen Elementary, Kimsham Ball Fields, and Cross Trail access\"</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:55 AM</td><td>6:55 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Kashevaroff St / Edgecumbe Dr</div><p>Near Keet Gooshi Heen Elementary, Kimsham Ball Fields, and Cross Trail access</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:55 AM</td><td>6:55 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -217,7 +217,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Charteris St / Edgecumbe Dr</div><p>\"End of stops along Edgecumbe Dr, Cross Trail access via Charteris St\"</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:58 AM</td><td>6:58 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Charteris St / Edgecumbe Dr</div><p>Cross Trail access via Charteris St - Final stop along Edgecumbe Dr</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:58 AM</td><td>6:58 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -316,7 +316,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Ferry Terminal</div><p>\"Ferry Terminal, Alaska Marine Highway - Final stop along Halibut Point Rd\"</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>7:14 AM</td><td>7:14 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Ferry Terminal</div><p>Ferry Terminal, Alaska Marine Highway - Final stop along Halibut Point Rd</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>7:14 AM</td><td>7:14 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -397,7 +397,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Community House</div><p>Sheetka Kwaan Naa Kahidi Community House - 200 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>7:30 PM</td><td>Every 30 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Community House</div><p>Sheet'ká Ḵwáan Naa Kahídi Community House - 200 Katlian St</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:30 AM</td><td>7:30 PM</td><td>Every 30 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
