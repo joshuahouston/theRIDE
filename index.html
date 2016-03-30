@@ -1,88 +1,259 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>the RIDE</title>
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+    <meta charset='utf-8' />
+    <title>the RIDE</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src="lines.js"></script>
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+		table,
+		th,	td {
+		  border: 1px solid #111;
+		  border-collapse: collapse;
+		}
+
+		th,	td {
+		  padding: 5px;
+		}
+
+		table#t01 th {
+		  color: white;
+		  background-color: #888888;
+		}
+
+		.mapboxgl-popup {
+		  max-width: 400px;
+		  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		}
+
+		.marker-title {
+		  font-weight: 600;
+		}
+    </style>
 </head>
 <body>
-<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css' rel='stylesheet' />
-<!--[if lt IE 9]>
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.ie.css' rel='stylesheet' />
-<![endif]-->
-
 <style>
-.leaflet-control-locate {
-  border:1px solid rgba(0,0,0,0.4);
-  }
-.leaflet-control-locate a {
-  background-color:#fff;
-  background-position:-3px, -2px;
-  }
-.leaflet-control-locate.active a {
-  background-position:-33px -2px;
-  }
+    #menu {
+        background: #fff;
+        position: absolute;
+        z-index: 1;
+        top: 10px;
+        right: 10px;
+        border-radius: 3px;
+        width: 120px;
+        border: 1px solid rgba(0,0,0,0.4);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #menu a {
+        font-size: 13px;
+        color: #404040;
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0,0,0,0.25);
+        text-align: center;
+    }
+
+    #menu a:last-child {
+        border: none;
+    }
+
+    #menu a:hover {
+        background-color: #f8f8f8;
+        color: #404040;
+    }
+
+    #menu a.active {
+        background-color: #3887be;
+        color: #ffffff;
+    }
+
+    #menu a.active:hover {
+        background: #3074a4;
+    }
 </style>
-<script src='buslines.js'></script>
+
+<nav id="menu"></nav>
 <div id="map"></div>
 <script>
-		var redLine = new L.geoJson(redLine, {
-			style: {color: "#de2d26", weight: 5, opacity: 1}
-			});
-			
-			blueLine = new L.geoJson(blueLine, {
-			style: {color: "#2b8cbe", weight: 5, opacity: 1}
-			});
-			
-			greenLine = new L.geoJson(greenLine, {
-			style: {color: "#2ca25f", weight: 5, opacity: 1}
-			}); 
-			
+mapboxgl.accessToken = 'pk.eyJ1IjoiamZhY3RvcnkiLCJhIjoiZXdJam1yZyJ9.-AOTWD0gk1_3wuciI3DbsQ';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v8',
+  center: [-135.33, 57.0506],
+  zoom: 13
+});
 
-L.mapbox.accessToken = 'pk.eyJ1IjoiamZhY3RvcnkiLCJhIjoiZXdJam1yZyJ9.-AOTWD0gk1_3wuciI3DbsQ';
-var map = L.mapbox.map('map', 'jfactory.nf8kln00', {
-	infoControl: false,
-	attributionControl: true,
-	layers: [redLine, blueLine, greenLine],
-	maxZoom: 18,
-	minZoom: 12,
-	maxBounds: [[56.95,-135.8],[57.2,-134.9]]
-}).setView([57.055,-135.333], 14);
-	L.control.locate().addTo(map);
-map.attributionControl
-	.addAttribution('<a href="http://ridesitka.com"><img src="logo.png" alt="logo"></a>');
-	
-	$.getJSON('stops.json', function(data) {
-	    var geojson = L.geoJson(data, {
-			pointToLayer: function(feature, latlng) {
-				return L.marker(latlng, {icon:  L.mapbox.marker.icon({
-    'marker-size': 'small',
-    'marker-color': '#4f4f4f',
-    'marker-symbol': 'bus'
-  })})
-			},
-	      onEachFeature: function (feature, layer) {
-			  layer.bindPopup('\<h6\>' + feature.properties.name + '\</h6/>\<p\>' + feature.properties.route + ' Line '+ '\<br\>' + feature.properties.time + '\<br\>\<br\>' + feature.properties.desc + '\</p\>');
-	      }
-	    });
-	    geojson.addTo(map);
-	  });
-	  
-		var overlays = {
-			"Blue Line": blueLine,
-			"Red Line": redLine,
-			"Green Line": greenLine
-		};
+map.on('style.load', function() {
+  map.addSource("blue", {
+    "type": "geojson",
+    "data": {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": blueLine
+      }
+    }
+  });
 
-		L.control.layers(overlays).addTo(map);
-		
+  map.addLayer({
+    "id": "blue",
+    "type": "line",
+    "source": "blue",
+    "layout": {
+      "line-join": "round",
+      "line-cap": "round"
+    },
+    "paint": {
+      "line-color": "#6666ff",
+	  "line-width": 5
+    }
+  });
+});
+
+map.on('style.load', function() {
+  map.addSource("red", {
+    "type": "geojson",
+    "data": {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": redLine
+      }
+    }
+  });
+
+  map.addLayer({
+    "id": "red",
+    "type": "line",
+    "source": "red",
+    "layout": {
+      "line-join": "round",
+      "line-cap": "round"
+    },
+    "paint": {
+      "line-color": "#ff6666",
+	  "line-width": 5
+    }
+  });
+});
+map.on('style.load', function() {
+  map.addSource("green", {
+    "type": "geojson",
+    "data": {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": greenLine
+      }
+    }
+  });
+
+  map.addLayer({
+    "id": "green",
+    "type": "line",
+    "source": "green",
+    "layout": {
+      "line-join": "round",
+      "line-cap": "round"
+    },
+    "paint": {
+      "line-color": "#00803e",
+	  "line-width": 5
+    }
+  });
+});
+addLayer('Blue Line', 'blue');
+addLayer('Green Line', 'green');
+addLayer('Red Line', 'red');
+
+function addLayer(name, id) {
+  var link = document.createElement('a');
+  link.href = '#';
+  link.className = 'active';
+  link.textContent = name;
+
+  link.onclick = function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    var visibility = map.getLayoutProperty(id, 'visibility');
+
+    if (visibility === 'visible') {
+      map.setLayoutProperty(id, 'visibility', 'none');
+      this.className = '';
+    } else {
+      this.className = 'active';
+      map.setLayoutProperty(id, 'visibility', 'visible');
+    }
+  };
+
+  var layers = document.getElementById('menu');
+  layers.appendChild(link);
+}
+
+map.on('style.load', function () {
+    map.addSource("markers", {
+        type: "geojson",
+        data: "stops.geojson"
+	});
+
+    map.addLayer({
+        "id": "markers",
+		"interactive": true,
+        "type": "symbol",
+        "source": "markers",
+        "layout": {
+            "icon-image": "bus-15",
+			"icon-allow-overlap": true
+        }
+    });
+});
+
+var popup = new mapboxgl.Popup();
+
+map.on('click', function (e) {
+    map.featuresAt(e.point, {
+        radius: 7.5, // Half the marker size (15px).
+        includeGeometry: true,
+        layer: 'markers'
+    }, function (err, features) {
+
+        if (err || !features.length) {
+            popup.remove();
+            return;
+        }
+
+        var feature = features[0];
+
+        // Populate the popup and set its coordinates
+        // based on the feature found.
+        popup.setLngLat(feature.geometry.coordinates)
+            .setHTML(feature.properties.description)
+            .addTo(map);
+    });
+});
+
+// Use the same approach as above to indicate that the symbols are clickable
+// by changing the cursor style to 'pointer'.
+map.on('mousemove', function (e) {
+    map.featuresAt(e.point, {
+        radius: 7.5, // Half the marker size (15px).
+        layer: 'markers'
+    }, function (err, features) {
+        map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
+    });
+});
 </script>
 </body>
 </html>
