@@ -37,7 +37,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Totem Park</div><p>Main entrance to Sitka National Historical Park (Totem Park)</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:39</td><td>6:39 PM AM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Totem Park</div><p>Main entrance to Sitka National Historical Park (Totem Park)</p><table id=\"t01\"><tr><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:39 AM</td><td>6:39 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
