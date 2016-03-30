@@ -1,14 +1,4 @@
-var blueLine = [{
-  "type": "Feature",
-  "properties": {
-    "stroke": "#2d5ed1",
-    "stroke-width": 3,
-    "stroke-opacity": 1,
-    "title": "Blue Line"
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
+var blueLine = [
       [-135.304604,
         57.048969
       ],
@@ -2658,21 +2648,9 @@ var blueLine = [{
       [-135.304604,
         57.048969
       ]
-    ]
-  }
-}];
+    ];
 
-var redLine = [{
-  "type": "Feature",
-  "properties": {
-    "stroke": "#ce2d18",
-    "stroke-width": 3,
-    "stroke-opacity": 1,
-    "title": "Red Line"
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
+var redLine = [
       [-135.349264,
         57.059872
       ],
@@ -4686,21 +4664,9 @@ var redLine = [{
       [-135.349264,
         57.059872
       ]
-    ]
-  }
-}];
+    ];
 
-var greenLine = [{
-  "type": "Feature",
-  "properties": {
-    "stroke": "#9fdf81",
-    "stroke-width": 3,
-    "stroke-opacity": 1,
-    "title": "Green Line"
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
+var greenLine = [
       [-135.339627,
         57.050253
       ],
@@ -6093,6 +6059,4 @@ var greenLine = [{
       [-135.339627,
         57.050253
       ]
-    ]
-  }
-}];
+    ];
