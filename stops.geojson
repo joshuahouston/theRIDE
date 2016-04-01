@@ -64,7 +64,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Arrowhead St / Monastery St</div><p>Between Shennett St & Kinkead St</p><table id=\"t01\"><tr><th>Line</th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>6:49 AM</td><td>6:49 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Arrowhead St / Monastery St</div><p>Between Shennett St & Kinkead St</p><table id=\"t01\"><tr><th>Line</th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Blue</td><td>6:49 AM</td><td>6:49 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
@@ -226,7 +226,7 @@
   }, {
     "type": "Feature",
     "properties": {
-      "description": "<div class=\"marker-title\">Sea Mart</div><p>Sea Mart Quality Foods grocery store</p><table id=\"t01\"><tr><th>Line</th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Blue Outbound</td><td>7:00 AM</td><td>7:00 PM</td><td>Every 60 minutes</td></tr><tr><td>Blue Inbound</td><td>7:27 AM</td><td>7:27 PM</td><td>Every 60 minutes</td></tr></table>"
+      "description": "<div class=\"marker-title\">Sea Mart</div><p>Sea Mart Quality Foods grocery store</p><table id=\"t01\"><tr><th>Line</th><th>Start</th><th>End</th><th>Frequency</th></tr><tr><td>Red Outbound</td><td>7:00 AM</td><td>7:00 PM</td><td>Every 60 minutes</td></tr><tr><td>Red Inbound</td><td>7:27 AM</td><td>7:27 PM</td><td>Every 60 minutes</td></tr></table>"
     },
     "geometry": {
       "type": "Point",
