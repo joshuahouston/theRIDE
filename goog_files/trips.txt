@@ -1,7 +1,4 @@
 route_id,service_id,trip_id,trip_headsign,shape_id
-BLUE,REGWK,BLUE_IN,to Crescent Harbor,blu1
-BLUE,REGWK,BLUE_OUT,to Whale Park,blu2
-GREEN,REGWK,GREEN_RIV,to Indian River Rd,grn1
-GREEN,REGWK,GREEN_ISL,to Japonski Island,grn2
-RED,REGWK,RED_IN,to Crescent Harbor,red1
-RED,REGWK,RED_OUT,to Ferry Terminal,red2
+BLUE,REGWK,BLU,to Whale Park,blu
+GREEN,REGWK,GRN,to Japonski Island,grn
+RED,REGWK,RED,to Ferry Terminal,red
