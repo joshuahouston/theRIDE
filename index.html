@@ -13,14 +13,14 @@
 <nav id="menu"></nav>
 <div id="map"></div>
 <span class="logo">
-    <a href="https://ridesitka.com/"><img src="http://jfact0ry.com/theRIDE/logo.png" width=76 height=27></a>
+    <a href="https://ridesitka.com/"><img src="http://jfact0ry.com/theRIDE/logo.png" width=76 height=34></a>
 </span>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiamZhY3RvcnkiLCJhIjoiZXdJam1yZyJ9.-AOTWD0gk1_3wuciI3DbsQ';
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v8',
-  center: [-135.33, 57.0506],
+  center: [-135.33, 57.0507],
   zoom: 13
 });
 
@@ -187,6 +187,8 @@ map.on('mousemove', function (e) {
         map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
     });
 });
+
+map.addControl(new mapboxgl.Navigation());
 </script>
 </body>
 </html>
