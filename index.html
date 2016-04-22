@@ -15,6 +15,8 @@
 <span class="logo">
     <a href="https://ridesitka.com/"><img src="http://jfact0ry.com/theRIDE/logo.png" width=76 height=34></a>
 </span>
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.0.0/mapbox-gl-geocoder.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.0.0/mapbox-gl-geocoder.css' type='text/css' />
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiamZhY3RvcnkiLCJhIjoiZXdJam1yZyJ9.-AOTWD0gk1_3wuciI3DbsQ';
 var map = new mapboxgl.Map({
@@ -188,7 +190,12 @@ map.on('mousemove', function (e) {
     });
 });
 
-map.addControl(new mapboxgl.Navigation());
+map.addControl(new mapboxgl.Geocoder({
+  position: 'top-left'
+}));
+map.addControl(new mapboxgl.Navigation({
+   position: 'top-left'
+}));
 </script>
 </body>
 </html>
