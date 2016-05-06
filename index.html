@@ -187,12 +187,15 @@ map.on('mousemove', function (e) {
         map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
     });
 });
-map.addControl(new mapboxgl.Geolocate({
-   position: 'top-left'
-}));
+
 map.addControl(new mapboxgl.Navigation({
    position: 'top-left'
 }));
+
+map.addControl(new mapboxgl.Geolocate({
+   position: 'top-left'
+}));
+
 
 </script>
 </body>
