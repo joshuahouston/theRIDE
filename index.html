@@ -5,6 +5,7 @@
     <title>the RIDE</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<script src="lines.js"></script>
+	<script src="geolocate.js"></script>
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.css' rel='stylesheet' />
 	<link href='style.css' rel='stylesheet' />
@@ -192,10 +193,10 @@ map.addControl(new mapboxgl.Navigation({
    position: 'top-left'
 }));
 
-map.addControl(new mapboxgl.Geolocate({
+/* map.addControl(new mapboxgl.Geolocate({
    position: 'top-left'
 }));
-
+*/
 
 </script>
 </body>
