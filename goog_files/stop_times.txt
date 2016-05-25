@@ -2,7 +2,7 @@ trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign
 BLU,06:30:00,06:30:00,PRICE_ST,1,To Crescent Harbor
 BLU,06:33:00,06:33:00,CASCADE_LAUNDRY,2,To Crescent Harbor
 BLU,06:36:00,06:36:00,SJ_CAMPUS,3,To Crescent Harbor
-BLU,06:39:00,06:39:00,TOTEM_PARK,4,To Crescent Harbor
+BLU,06:39:00,06:39:00,NATIONAL_PARK_MAIN,4,To Crescent Harbor
 BLU,06:43:00,06:45:00,CRESC_HARB,5,To Sitka High School
 BLU,06:47:00,06:47:00,SENIOR_CTR,6,To Sitka High School
 BLU,06:49:00,06:49:00,ARROWHEAD,7,To Sitka High School
@@ -10,13 +10,13 @@ BLU,06:50:00,06:50:00,VERSTOVIA,8,To Sitka High School
 BLU,06:53:00,06:54:00,SITKA_HIGH,9,To Gary Paxton Industrial Park
 BLU,06:56:00,06:56:00,BARANOF,10,To Gary Paxton Industrial Park
 BLU,06:57:00,06:57:00,BIORKA,11,To Gary Paxton Industrial Park
-BLU,06:59:00,06:59:00,NATIONAL_PARK,12,To Gary Paxton Industrial Park
+BLU,06:59:00,06:59:00,NATIONAL_PARK_SMC,12,To Gary Paxton Industrial Park
 BLU,07:02:00,07:02:00,PRICE_ST,13,To Gary Paxton Industrial Park
 BLU,07:09:00,07:09:00,WHALE_PARK,14,To Gary Paxton Industrial Park
-BLU,07:12:00,07:17:00,GPIP,15,To Town
-BLU,07:22:00,07:22:00,THIMBLEBERRY,16,To Town
-BLU,07:25:00,07:25:00,ANNA,17,To Town
-BLU,07:28:00,07:28:00,ARR_TRANSF,18,To Town
+BLU,07:12:00,07:17:00,GPIP,15,To Crescent Harbor
+BLU,07:22:00,07:22:00,THIMBLEBERRY,16,To Crescent Harbor
+BLU,07:25:00,07:25:00,ANNA,17,To Crescent Harbor
+BLU,07:28:00,07:28:00,ARR_TRANSF,18,To Crescent Harbor
 GRN,06:30:00,06:30:00,COMM_HOUSE,1,To Katlian St
 GRN,06:31:00,06:31:00,SITKA_TRIBE,2,To Katlian St
 GRN,06:33:00,06:33:00,CTR_FOR_COMM,3,To Indian River Rd
