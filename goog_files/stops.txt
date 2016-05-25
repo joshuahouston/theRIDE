@@ -2,7 +2,7 @@ stop_id,stop_name,stop_desc,stop_lat,stop_lon
 PRICE_ST,Price St / Burkhart Dr,Near Sawmill Creek Plaza,57.048985,-135.30432
 CASCADE_LAUNDRY,Cascade Laundry,Cascade Laundry & Convenience Store - Sawmill Creek Blvd,57.048559,-135.310548
 SJ_CAMPUS,SJ Campus,Sheldon Jackson Campus / Sitka Fine Arts Camp - Near Hames Center and Sitka International Hostel,57.051868,-135.323912
-TOTEM_PARK,Totem Park,Main entrance to Sitka National Historical Park (Totem Park),57.049095,-135.319036
+NATIONAL_PARK_MAIN,Sitka National Historical Park Main Entrance,Main entrance to Sitka National Historical Park near Lincoln St,57.049095,-135.319036
 CRESC_HARB,Crescent Harbor,Crescent Harbor parking lot near Harrigan Centennial Hall - All Line Transfer,57.050581,-135.332352
 SENIOR_CTR,Swan Lake Senior Center,Swan Lake Senior Center and Salvation Army on Lake St,57.053752,-135.334438
 ARROWHEAD,Arrowhead St / Monastery St,Between Shennett St and Kinkead St,57.058197,-135.334307
@@ -10,7 +10,7 @@ VERSTOVIA,Verstovia St / A St,Just south of Sitka High School between Sirstad St
 SITKA_HIGH,Sitka High School,"Sitka High School, Performing Arts Center, and Cross Trail access - Red Line & Blue Line Transfer",57.062778,-135.341727
 BARANOF,Baranof St / Sawmill Creek Rd,Near Baranof Elementary School and Market Center,57.053766,-135.330311
 BIORKA,Biorka St / Sawmill Creek Rd,Near Sitka Recycling Center and Sitka National Cemetery,57.054082,-135.32475
-NATIONAL_PARK,Sitka National Historical Park,Sawmill Creek Road entrance to Sitka National Historical Park,57.049756,-135.313787
+NATIONAL_PARK_SMC,Sitka National Historical Park Sawmill Creek Rd Entrance,Sawmill Creek Road entrance to Sitka National Historical Park across from the Raptor Center,57.049756,-135.313787
 WHALE_PARK,Whale Park,Whale Park overlooks the entrance to Silver Bay and is at the head of the new pedestrian path that follows along Sawmill Creek Rd to the industrial park,57.033688,-135.253033
 GPIP,Gary Paxton Industrial Park,GPIP Admin building near Blue Lake Rd final stop along Sawmill Creek Rd,57.04702,-135.232429
 THIMBLEBERRY,Thimbleberry Lake,Thimbleberry Lake and Heart Lake Trailhead,57.037764,-135.255296
