@@ -54,6 +54,9 @@ table#t01 th {
   text-decoration: none;
 }
 
+a:visited .info { text-decoration: none; color:black; }
+a:hover .info { text-decoration: none; }
+
 #menu {
   background: #fff;
   position: absolute;
