@@ -1,2 +1,2 @@
 service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
-REGWK,1,1,1,1,1,0,0,20151231,20181231
+REGWK,1,1,1,1,1,0,0,20171231,20211231
