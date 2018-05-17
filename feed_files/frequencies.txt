@@ -1,4 +1,4 @@
-trip_id,start_time,end_time,headway_secs,exact_times
-BLU,06:30:00,19:30:00,3600,1
-GRN,06:30:00,19:30:00,1800,1
-RED,06:30:00,19:30:00,3600,1
+trip_id,start_time,end_time,headway_secs,exact_times,block_id
+BLU,06:30:00,19:30:00,3600,1,blue_loop
+GRN,06:30:00,19:30:00,1800,1,green_loop
+RED,06:30:00,19:30:00,3600,1,red_loop
