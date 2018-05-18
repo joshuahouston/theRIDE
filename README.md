@@ -1,6 +1,7 @@
 # theRIDE
 Sitka's transit system 'the RIDE'
 ------
+This repository is for maintaining GTFS and interactive webmap data for Sitka's transit system [the RIDE](http://ridesitka.com/). Currently, two versions of GTFS data are maintained as described below. The files not mentioned below are for the interactive webmap found at [http://ridesitka.com/map/](http://ridesitka.com/map/).
 
 **OpenStreetMap**
 * feed_files
@@ -12,4 +13,4 @@ Please use these files. They were made with OpenStreetMap and OpenStreetMap was 
 * goog_files
 * google_transit.zip (simply the goog_files just zipped)
 
-Please don't use these files. They were made for Google. This dataset is separate from the OpenStreetMap dataset because Google Maps and OpenStreetMap do not align well in the Sitka area. Use [Google Maps](https://www.google.com/maps/@57.0540593,-135.3292799,14z).
+Please don't use these files. They were made for Google. This dataset is separate from the OpenStreetMap dataset because Google Maps and OpenStreetMap do not align well in the Sitka area. Use [Google Maps](https://www.google.com/maps/@57.0540593,-135.3292799,14z) for all your Sitka transit needs.
