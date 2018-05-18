@@ -1,6 +1,15 @@
 # theRIDE
 Sitka's transit system 'the RIDE'
 ------
-There are two versions of GTFS files in this project. Feed_files is the version aligned with OpenStreetMap and transit_feed.zip is the zipped version of these files. Goog_files is aligned with Google Maps and google_transit.zip is the zipped version of these files.
 
-The other files are for the interactive website linked above.
+**OpenStreetMap**
+-feed_files
+-transit_feed.zip (simply the feed_files just zipped)
+
+Please use these files. They were made with OpenStreetMap and OpenStreetMap was improved for them. I was passionate about making OpenStreetMap and this transit data good quality, so a lot of work went into both. This version of the data is intended to be shared.
+
+**Google**
+-goog_files
+-google_transit.zip (simply the goog_files just zipped)
+
+Please don't use these files. They were made for Google. This dataset is separate from OpenStreetMap dataset because Google Maps and OpenStreetMap do not align well in the Sitka area. Use [Google Maps](https://www.google.com/maps/@57.0540593,-135.3292799,14z).
