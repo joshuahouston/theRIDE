@@ -1,7 +1,7 @@
 # Announcement
 ### November 18, 2020
 
-This repository is no longer being maintained. For transit feed data for Sitka's The RIDE please refer to [https://jfactory.xyz/gtfs/theride/](https://jfactory.xyz/gtfs/theride/) or contact Josh Houston at ridemaster@jfactory.xyz
+This repository is no longer being maintained. For transit feed data for Sitka's The RIDE please refer to [https://jfactory.xyz/gtfs/theride/](https://jfactory.xyz/gtfs/theride/) or contact The RIDE's Transit Feed master at sitkatheride@gmail.com 
 
 # theRIDE
 Sitka's transit system 'the RIDE'
