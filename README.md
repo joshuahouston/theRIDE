@@ -1,4 +1,9 @@
 # Announcement
+### May 25, 2026
+
+Everything below is outdated so proceed with caution. See [https://www.sitka.land/transit](https://www.sitka.land/transit) for updates.
+
+# Announcement
 ### November 18, 2020
 
 This repository is no longer being maintained. For transit feed data for Sitka's The RIDE please refer to [https://jfactory.xyz/gtfs/theride/](https://jfactory.xyz/gtfs/theride/) or contact The RIDE's Transit Feed master at sitkatheride@gmail.com 
